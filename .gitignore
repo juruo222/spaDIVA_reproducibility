@@ -1,0 +1,62 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+*.log
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Generated tabular/model artifacts are ignored unless explicitly deposited
+# below as immutable figure source data.
+*.csv
+*.tsv
+*.npz
+*.npy
+*.h5ad
+*.h5
+*.loom
+*.pkl
+*.pt
+*.pth
+*.ckpt
+lightning_logs/
+
+**/results/**
+!results/README.md
+tmp/
+_numba_cache/
+_mpl_cache/
+.mplconfig/
+
+.DS_Store
+Thumbs.db
+config/paths.local.json
+
+# Extracted Zenodo data are external to the code repository.
+/data/
+/simulation/
+/P22/
+/E13E15E18/
+/P21P22/
+/human lymph node/
+
+# Repository inventory and compact, immutable source data.
+!MANIFEST.tsv
+!datasets/**/source_data/*.csv
+!datasets/**/source_data/**/*.csv
+
+# Fixed splits and compact artifacts required by external-translation runs.
+!datasets/P22_ATAC_RNA/external_translation_figure_reproduction/fixed_split/split_assignments.csv
+!datasets/P22_ATAC_RNA/external_translation_figure_reproduction/latent/P22_spaDIVA_sampled_Z_poe.h5ad
+!datasets/P22_ATAC_RNA/external_translation_figure_reproduction/external_predictions/ARTIFACT_MANIFEST.tsv
+!datasets/human_lymph_node_RNA_ADT/external_translation_figure_reproduction/artifacts/split_assignments.csv
+!datasets/human_lymph_node_RNA_ADT/external_translation_figure_reproduction/artifacts/totalvi_test_pred_protein.h5ad
+!datasets/human_lymph_node_RNA_ADT/external_translation_figure_reproduction/artifacts/ARTIFACT_MANIFEST.tsv
+
+# Deterministic metric recalculations are deposited separately from the
+# manuscript bar values under each dataset's source_data directory.
+!recomputed_metrics/
+!recomputed_metrics/**

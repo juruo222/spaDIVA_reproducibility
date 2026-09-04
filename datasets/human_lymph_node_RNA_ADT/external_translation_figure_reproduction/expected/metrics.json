@@ -1,0 +1,29 @@
+{
+  "z_source": "Z_poe",
+  "uf_ratio_source": "source_data/Figure_4_manuscript_source.csv",
+  "latent_recomputation_supported": false,
+  "n_features": 31,
+  "n_train_spots": 2438,
+  "n_validation_spots": 349,
+  "n_test_spots": 697,
+  "spearman_r": -0.4903225806451614,
+  "spearman_p": 0.00510626603450084,
+  "mannwhitney_alternative": "low unique factor ratio > high unique factor ratio",
+  "mannwhitney_p_one_sided": 0.012987012987012988,
+  "high_exact_matches": [
+    "SDC1",
+    "CD274",
+    "CD19",
+    "KRT5",
+    "CEACAM8",
+    "EPCAM"
+  ],
+  "low_exact_matches": [
+    "VIM",
+    "CD3E",
+    "BCL2",
+    "ACTA2",
+    "CCR7",
+    "CD4"
+  ]
+}

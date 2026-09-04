@@ -1,0 +1,3 @@
+file_name	size_bytes	sha256	role
+split_assignments.csv	105530	61af4d70a0fcf08db7239dac11b6f374be93379d551732e9b74790364ec92cbf	fixed name-based train/validation/test split
+totalvi_test_pred_protein.h5ad	163772	8ec596abbd5afd467bf0fe723fe076347064b949774a6c8ed978da48b7d8388c	frozen held-out totalVI protein prediction

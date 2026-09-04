@@ -1,0 +1,21 @@
+map_id,figure,panel,method,condition,representation,K,source_artifact,source_obs_column,n_spots
+spadiva_integrated_k12,Figure 3,"b,d",spaDIVA,full,integrated,12,code/P22/spaDIVA/P22.h5ad,mclust_Z_W_12,9196
+spamosaic_integrated_k12,Figure 3,b,SpaMosaic,full,integrated,12,code/P22/spamosaic/P22_spamosaic.h5ad,cluster_12,9215
+spatialglue_integrated_k12,Figure 3,b,SpatialGlue,full,integrated,12,code/P22/spatialGlue/P22_spatialGlue.h5ad,cluster_12,9196
+multivi_integrated_k12,Figure 3,b,MultiVI,full,integrated,12,code/P22/multiVI/P22_multiVI.h5ad,cluster_12,9215
+spadiva_atac_specific_k6,Figure 3,d,spaDIVA,full,ATAC-specific,6,code/P22/spaDIVA/P22.h5ad,mclust_W1,9196
+spadiva_rna_specific_k6,Figure 3,d,spaDIVA,full,RNA-specific,6,code/P22/spaDIVA/P22.h5ad,mclust_W2,9196
+spadiva_shared_k12,Figure 3,d,spaDIVA,full,shared,12,code/P22/spaDIVA/P22.h5ad,mclust_Z_12,9196
+atac_input_k6,Figure 3,d,Input,ATAC,ATAC input,6,code/P22/spaDIVA/P22.h5ad,ATAC,9196
+rna_input_k6,Figure 3,d,Input,RNA,RNA input,6,code/P22/spaDIVA/P22.h5ad,RNA,9196
+spadiva_integrated_k18,Supplementary Figure S2,a,spaDIVA,full,integrated,18,code/P22/spaDIVA/P22.h5ad,mclust_Z_W_18,9196
+spadiva_no_poe_integrated_k18,Supplementary Figure S2,a,spaDIVA,without PoE,integrated,18,code/P22/spaDIVA_ablation/poe/poe_ablation_P22.h5ad,cluster_18,9196
+spamosaic_integrated_k18,Supplementary Figure S2,a,SpaMosaic,full,integrated,18,code/P22/spamosaic/P22_spamosaic.h5ad,cluster_18,9215
+spatialglue_integrated_k18,Supplementary Figure S2,a,SpatialGlue,full,integrated,18,code/P22/spatialGlue/P22_spatialGlue.h5ad,cluster_18,9196
+multivi_integrated_k18,Supplementary Figure S2,a,MultiVI,full,integrated,18,code/P22/multiVI/P22_multiVI.h5ad,cluster_18,9215
+spadiva_kl_ablation_integrated_k18,Supplementary Figure S2,b,spaDIVA_KL_ablation,without KL,integrated,18,code/P22/spaDIVA_ablation/KL/KL_ablation_P22.h5ad,mclust_Z_W_18,9196
+spadiva_kl_ablation_shared_k18,Supplementary Figure S2,b,spaDIVA_KL_ablation,without KL,shared,18,code/P22/spaDIVA_ablation/KL/KL_ablation_P22.h5ad,mclust_Z_18,9196
+spadiva_kl_ablation_integrated_k12,Supplementary Figure S2,b,spaDIVA_KL_ablation,without KL,integrated,12,code/P22/spaDIVA_ablation/KL/KL_ablation_P22.h5ad,mclust_Z_W_12,9196
+spadiva_kl_ablation_shared_k12,Supplementary Figure S2,b,spaDIVA_KL_ablation,without KL,shared,12,code/P22/spaDIVA_ablation/KL/KL_ablation_P22.h5ad,mclust_Z_12,9196
+spadiva_kl_ablation_atac_specific_k6,Supplementary Figure S2,b,spaDIVA_KL_ablation,without KL,ATAC-specific,6,code/P22/spaDIVA_ablation/KL/KL_ablation_P22.h5ad,mclust_W1,9196
+spadiva_kl_ablation_rna_specific_k6,Supplementary Figure S2,b,spaDIVA_KL_ablation,without KL,RNA-specific,6,code/P22/spaDIVA_ablation/KL/KL_ablation_P22.h5ad,mclust_W2,9196

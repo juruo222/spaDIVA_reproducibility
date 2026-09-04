@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+
+# Re-include the compact frozen sources despite the repository-level data
+# ignore rules. Generated plots and manifests remain local and reproducible.
+!source_data/
+!source_data/*.csv
+
+# Runtime outputs, caches, and full model artifacts remain local.
+results/

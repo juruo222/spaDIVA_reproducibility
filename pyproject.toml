@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spaDIVA"
+version = "0.1.0"
+description = "Code snapshot for reproducing spaDIVA manuscript analyses"
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = [
+    "spatial multi-omics",
+    "single-cell",
+    "graph neural network",
+    "variational autoencoder",
+    "reproducibility",
+]
+
+[tool.setuptools]
+packages = ["spaDIVA"]

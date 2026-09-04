@@ -1,0 +1,11 @@
+slice,omics,representation,jaccard,n_spots
+weighted_mean,ATAC,W_ATAC,0.1515893191775092,5817
+weighted_mean,ATAC,W_RNA,0.09522499773311832,5817
+weighted_mean,ATAC,shared,0.1487516849396567,5817
+weighted_mean,ATAC,shared+W_ATAC,0.16806428830519557,5817
+weighted_mean,ATAC,shared+W_RNA,0.13891530316396483,5817
+weighted_mean,RNA,W_ATAC,0.05811228385906143,5817
+weighted_mean,RNA,W_RNA,0.0806993326449576,5817
+weighted_mean,RNA,shared,0.07673116607493796,5817
+weighted_mean,RNA,shared+W_ATAC,0.07256413496752542,5817
+weighted_mean,RNA,shared+W_RNA,0.08635898779831365,5817

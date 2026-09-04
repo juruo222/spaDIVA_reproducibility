@@ -1,0 +1,5 @@
+feature_name,feature_idx,feature_display,true_factor_label,true_factor_color,rank_fraction,unique_factor_ratio,translation_accuracy_totalVI,selected_label
+32,32,feature 32,Background,#1f77b4,0.13131313131313133,0.0,0.8724411,Background
+61,61,feature 61,factor 1,#ff7f0e,0.6666666666666667,0.020350456,0.886969,factor 1
+0,0,feature 0,factor 2,#2ca02c,0.0,0.0,0.8870728,factor 2
+95,95,feature 95,factor 3,#d62728,0.8686868686868687,0.21170998,0.69225407,factor 3

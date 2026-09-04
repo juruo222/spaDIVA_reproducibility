@@ -1,0 +1,11 @@
+input_modality,representation,k,distance_metric,n_spots,mean_jaccard
+ATAC,shared,50,euclidean,9196,0.023313195
+ATAC,shared+ATAC,50,euclidean,9196,0.026579029
+ATAC,shared+RNA,50,euclidean,9196,0.016871782
+ATAC,ATAC,50,euclidean,9196,0.022211278
+ATAC,RNA,50,euclidean,9196,0.011680105
+RNA,shared,50,euclidean,9196,0.014592664
+RNA,shared+ATAC,50,euclidean,9196,0.013978335
+RNA,shared+RNA,50,euclidean,9196,0.017032026
+RNA,ATAC,50,euclidean,9196,0.008842889
+RNA,RNA,50,euclidean,9196,0.013946333

@@ -1,0 +1,11 @@
+input_modality,representation,k,distance_metric,n_spots,mean_jaccard
+omics1,shared,50,euclidean,1296,0.118946354
+omics1,shared+omics1,50,euclidean,1296,0.145419369
+omics1,shared+omics2,50,euclidean,1296,0.108139328
+omics1,omics1,50,euclidean,1296,0.092726203
+omics1,omics2,50,euclidean,1296,0.073306274
+omics2,shared,50,euclidean,1296,0.12065821
+omics2,shared+omics1,50,euclidean,1296,0.116125238
+omics2,shared+omics2,50,euclidean,1296,0.143911463
+omics2,omics1,50,euclidean,1296,0.062532871
+omics2,omics2,50,euclidean,1296,0.111143216

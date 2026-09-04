@@ -1,0 +1,15 @@
+# Keep code and documentation byte-identical across Linux and Windows.
+* text=auto eol=lf
+
+# Frozen scientific assets are verified by byte-level SHA-256. Preserve their
+# line endings when committing or checking out on another operating system.
+datasets/**/source_data/** -text
+datasets/**/artifacts/** -text
+datasets/**/fixed_split/** -text
+datasets/**/latent/** -text
+datasets/**/external_predictions/** -text
+recomputed_metrics/**/*.csv -text
+recomputed_metrics/**/*.csv.gz binary
+recomputed_metrics/**/*.pdf binary
+recomputed_metrics/**/*.json -text
+recomputed_metrics/**/*.tsv -text

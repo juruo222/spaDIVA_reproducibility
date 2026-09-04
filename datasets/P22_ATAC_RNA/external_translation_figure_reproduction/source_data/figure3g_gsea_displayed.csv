@@ -1,0 +1,11 @@
+plot_order_top_to_bottom,gene_set_library,pathway,original_term,NES,FDR_q_value,enriched_group
+1,KEGG_2019_Mouse,Staphylococcus aureus infection,KEGG_2019_Mouse__Staphylococcus aureus infection,2.077081184394811,0.0212734985859258,high-private
+2,KEGG_2019_Mouse,Graft-versus-host disease,KEGG_2019_Mouse__Graft-versus-host disease,2.0508451750762093,0.0154716353352187,high-private
+3,KEGG_2019_Mouse,Allograft rejection,KEGG_2019_Mouse__Allograft rejection,1.9504404322089728,0.0328772250873398,high-private
+4,KEGG_2019_Mouse,Ascorbate and aldarate metabolism,KEGG_2019_Mouse__Ascorbate and aldarate metabolism,1.902991323877237,0.0415800199634004,high-private
+5,KEGG_2019_Mouse,Type I diabetes mellitus,KEGG_2019_Mouse__Type I diabetes mellitus,1.8677926786073056,0.0477686740974879,high-private
+6,WikiPathways_2019_Mouse,Monoamine GPCRs,WikiPathways_2019_Mouse__Monoamine GPCRs WP570,-2.1797904462575137,0.0157237119191351,low-private
+7,GO_Biological_Process_2023,GABA signaling,GO_Biological_Process_2023__Gamma-Aminobutyric Acid Signaling Pathway (GO:0007214),-2.7448329681998302,0.0027840181655675,low-private
+8,GO_Biological_Process_2023,Adrenergic receptor signaling,GO_Biological_Process_2023__Adrenergic Receptor Signaling Pathway (GO:0071875),-2.785877461611219,0.0030933535172972,low-private
+9,GO_Biological_Process_2023,GABAergic synaptic transmission,"GO_Biological_Process_2023__Synaptic Transmission, GABAergic (GO:0051932)",-2.788222862843692,0.0046400302759459,low-private
+10,GO_Biological_Process_2023,AC-activating adrenergic signaling,GO_Biological_Process_2023__Adenylate Cyclase-Activating Adrenergic Receptor Signaling Pathway (GO:0071880),-2.9761800385761537,0.0018560121103783,low-private
